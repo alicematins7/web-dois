@@ -8,14 +8,59 @@
      box-sizing: border-box;
 }
    :root {
-       --primary:  #FD0303; 
-       --primary-light: #FD225555
-       --secundary: #22550
-       --secundary-light: #225555;
-       --third: #455a64;
-       --third-light: #ffe9ca;
+       --primary: #0EE0FD ; 
+       --primary-light: #37A2B9;
+       --secondary: #FFFDFD;
+       --secondary-light: #0EE0FD;
+       --third: #07535E;
+       --third-light: #0737ff;
+       --black: #0000; 
+       --white: #ffff;
    }
 
    header { 
        display: flex;
+       border-bottom: 0.5rem solid var(--secondary);
    }
+      header picture img {
+      height: 6rem; 
+
+      }
+        header nav {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+        }
+         header nav ul{
+          list-style-type: none;
+          display: flex; 
+          align-items: center;
+         }
+    header nav ul li {
+        margin: 0 1.5rem;
+    }
+     header nav ul li a {
+           text-decoration: none;
+           font-size: 1.2rem;
+           color: var(--primary);
+     }
+      main {
+          min-height: 70vh;
+      }
+      footer {
+          background-color: var(--secondary);
+          height: 3rem;
+          display: flex;
+          align-items: center;
+
+      }
+       footer > div {
+         display: flex;
+         align-items: center;
+       }
+       .content {
+        width: 135%;
+        max-width: 1372px;
+        margin: 0 auto;
+
+       }
