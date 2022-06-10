@@ -1,0 +1,14 @@
+h1,
+h2,
+h3,
+h4 {
+    color:blue
+}
+table,
+
+table tr td,
+table tr th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 1rem;
+}

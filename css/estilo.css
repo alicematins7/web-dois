@@ -116,8 +116,8 @@
   
   button{
     margin-left: 30%;
-    background-color: #C4C4C4;
-    border: 2px solid #C4C4C4;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 4px;
     color: black;
     padding: 0.5rem;
@@ -127,5 +127,14 @@
     color: #ffffff;
     font-size: medium;
   }
+  
+table,
+table tr td,
+table tr th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
   
  
